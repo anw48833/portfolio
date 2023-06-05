@@ -1,0 +1,13 @@
+.projects-container {
+    display: flex;
+    justify-content: center;
+}
+
+.projects-underline {
+    width: 150px;
+    height: 12px;
+    background-color: #ed1b4c;
+    margin-bottom: 30px;
+    margin-top: -30px;
+    margin-left: -7px;
+}
