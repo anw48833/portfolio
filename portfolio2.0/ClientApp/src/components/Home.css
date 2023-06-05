@@ -29,7 +29,7 @@
     background-color: #45ada8;
     margin-bottom: 30px;
     margin-top: -250px;
-    margin-left: -170px;
+    margin-left: -100px;
     border-radius: 100%;
     position: absolute;
     z-index: -999;
@@ -40,7 +40,7 @@
     background-color: #a8226b;
     margin-bottom: 30px;
     margin-top: 15px;
-    margin-left: 103px;
+    margin-left: 173px;
     border-radius: 100%;
     position: absolute;
     z-index: -998;
@@ -89,4 +89,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.proj-title {
+    font-family: 'Poppins';
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+.proj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.website-img {
+    width: 50%;
+    margin-top: 100px;
 }

@@ -12,21 +12,24 @@ export class Projects extends Component {
                 title: 'MilitaryHistoryOnline.com',
                 about: 'Working with C#, .NET, SQL.',
                 image: 'mho-img.png',
-                link: 'http://mho2021-001-site3.btempurl.com/'
+                link: 'http://mho2021-001-site3.btempurl.com/',
+                portfolioLink: '/mho',
             },
             {
                 id: 2,
                 title: 'Full-stack Website',
                 about: 'Used React for the UI, Node.js and Express for routing, and MongoDB for the data storage.',
-                image: 'project2.jpg',
-                link: 'xxx'
+                image: 'dawg-days-img.png',
+                link: 'https://github.com/anw48833/final_project',
+                portfolioLink: '/dawg-days',
             },
             {
                 id: 3,
                 title: 'Project 3',
                 about: 'This is the third project',
                 image: 'project3.jpg',
-                link: 'xxx'
+                link: 'xxx',
+                portfolioLink: '/xxx',
             }
             // Add more projects as needed
         ];
@@ -45,6 +48,7 @@ export class Projects extends Component {
                             about={project.about}
                             image={project.image}
                             link={project.link}
+                            portfolioLink={project.portfolioLink}
                         />
                     ))}
                 </div>
